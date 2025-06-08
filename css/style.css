@@ -3,7 +3,7 @@
 :root {
 
     --pimary-color: rgb(0, 225, 255);
-    --secondary-color: #425efa;
+    --secondary-color: #4282fa;
     --secondary-dark-color: #453c5c;
 
     --white-color: #ffffff;
@@ -216,6 +216,14 @@ header li > a {
     display: block;
 }
 
+/* HEADER */
+
+.header-nav{
+    padding: 0.5em 0;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
 .trigger {
     font-size: 1.5rem;
     display: flex;
@@ -244,7 +252,7 @@ header li > a {
     z-index: -1;
 }
 
-circle::before{
+.circle::before {
     content: '';
     position: absolute;
     width: 28px;
@@ -264,7 +272,7 @@ circle::before{
 .fly-item{
     position: absolute;
     height: 16px;
-    font-weight: var(--font-smallrer);
+    font-size: var(--font-smallrer);
     padding: 3px;
     text-align: center;
     line-height: 10px;
@@ -285,7 +293,7 @@ nav .fly-item {
     margin-left: auto;
 }
 
-.header-nav .right .icon-larger{
+.header-nav .right .icon-large {
     position: relative;
 }
 
